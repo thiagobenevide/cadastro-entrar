@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}
+
+
+/* Login*/
+.section-login{
+    background-color: #000;
+    border-radius: 0rem 2.0rem 2.0rem 0rem;
+    color: #fff;
+}
+
+.brand-infoinvest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.0rem 0rem 5.0rem 0rem;
+    width: 90%;
+
+}
+
+.logo {
+    width: 10vw;
+}
+
+.tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.0rem;
+    line-height: 45px;
+}
+
+.trace {
+    border-top: 0.3px solid #fff;
+}
+
+.presentation-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding: 5.0rem 0rem 2.0rem 2.5rem;
+    border-top: 0.3px solid #fff;    
+}
+
+.presentation-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 20px 25px 20px 25px;
+    font-size: 20px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-login {
+    background-color: #61E786;
+    padding: 1.5rem 6.0rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.button-login:hover {
+    background-color: #51bb6f;
+}
+
+.link-login {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.0rem;
+}
+
+
+/*Campos para preencher os dados*/
+
+.register{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    align-items: center;
+    text-align: center;
+}
+
+.register-tittle {
+    font-size: 3.0rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.register-paragraph {
+    font-size: 2.4rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.input-user {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 50px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-user-data {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border: none;
+    border-bottom: 0.3px solid black;
+    outline: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+}
+
+/*Data de nascimento*/
+
+.birth-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.birth-user-tittle{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.birth-user-input{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    border: none;
+    border-bottom: 0.3px solid #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    outline: 0;
+}
+
+.button-register-user {
+    background-color: #61E786;
+    padding: 1.5rem 6rem;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.button-register-user:hover {
+    background-color: #51bb6f;
+}
+
+.link-register-user{
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+
+.end-site {
+    background-color: #000;
+    margin-top: 100px;
+    height: 100px;
+    color: #fff;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.created {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+}
+
+.created-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright-credits {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+}
+
+a {
+    color: #fff;
+}

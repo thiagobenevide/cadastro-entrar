@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style-register.css">
-    <title>Cadastro</title>
+    <title>Cadastro InfoInvest</title>
 </head>
 <body>
     <main>
+        <!--Seção de apresentação e login-->
         <section class="section-login">
 
             <div class="brand-infoinvest">
@@ -31,68 +32,57 @@
             </div>
 
         </section>
-        <section class="register">
-            
-            <div class="register-requirements">
-                <h3 class="register-tittle" >Crie sua conta</h3>
-                <p class="register-paragraph">Preencha todos os campos</p>
-            </div>
 
-            <form class="input-user">
-
-                <label for="input-user-name">
-                    <input type="text" class="input-user-data" id="input-user-name" placeholder="Insira seu nome">
-                </label>
-
-                <label for="input-user-email">
-                    <input type="email" class="input-user-data" id="input-user-email" placeholder="Email preferido">
-                </label>
-
-                <label for="input-user-password">
-                    <input type="password" class="input-user-data" id="input-user-password" placeholder="Senha">
-                </label>
-        
+        <section id="user-register">
+            <!--Apresentação de registro-->
+            <section id="presentation-register">
+                <div>
+                    <h3 id="presentation-register-title">
+                        Crie sua conta
+                    </h3>
+                    <p id="presentation-register-paragraph">
+                        Preencha todos os campos
+                    </p>
+                </div>
+            </section>
+            <!--Formulário de cadastro-->
+    
+            <form id="form-user">
+                <fieldset id="user-fullname">
+                    <div id="div-user-name">
+                        <label for="user-name"></label>
+                        <input type="text" name="user-name" id="user-name"
+                        placeholder="Nome">
+                    </div>
+                    <div id="div-firsh-name">
+                        <label for="firsh-name"></label>
+                        <input type="text" name="firsh-name" id="firsh-name" placeholder="Sobrenome">
+                    </div>
+                </fieldset>
+    
+                <div class="user-data">
+                    <label for="user-password"></label>
+                    <input type="email" name="user-email" id="user-email" placeholder="Email Preferido">
+                </div>
+    
+                <div class="user-data">
+                    <label for="user-password"></label>
+                    <input type="password" name="user-password" id="user-password" placeholder="Senha">
+    
+                </div>
+    
+                <div id="button-register">
+                    <button id="button-user-register"><a href="#" id="link-user-register">Cadastrar</a></button>
+                </div>
             </form>
+        </section>    
 
-            
-
-            <form class="birth-user">
-                <h3 class="birth-user-tittle">Data de Nascimento</h3>
-                  
-                <label for="day">
-                    <input type="number" class="birth-user-input" id="day" placeholder="Dia">
-                </label>
-
-                <label for="month" id="month">
-                    <input type="number" class="birth-user-input" id="day" placeholder="Mês">
-                </label>
-
-                <label for="year">
-                    <input type="number" class="birth-user-input" id="year" placeholder="Ano">
-                </label>
-
-            </form>
-            <div>
-                <button class="button-register-user"><a href="#" class="link-register-user">Cadastrar</a></button>
-            </div>
-
-        </section>
     </main>
-    <footer class="end-site">
-        <section class="created">
+    <footer id="end-site">
+        <section id="created">
             <p>
-                Criado e Desenvolvido por <a href="#" class="created-link">Thiago Benevide</a></p>
+                Criado e Desenvolvido por <a href="#" id="created-link">Thiago Benevide</a></p>
         </section>
-
-        <section class="copyright-credits">
-            <!--Usuário-->
-            <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/iyahicon" title="IYAHICON"> IYAHICON </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
-            <!-- Ícone de email-->
-            <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/zafdesign" title="zafdesign"> zafdesign </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
-            <!--Ícone de cadeado-->
-            <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/good-ware" title="Good Ware"> Good Ware </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
-        </section>
-
     </footer>
 </body>
 </html>

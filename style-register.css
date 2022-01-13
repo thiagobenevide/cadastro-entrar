@@ -245,15 +245,11 @@ footer {
 }
 
 
-
-
-
-
-
 @media (max-width: 425px) {
     header {
         grid-column-start: 1;
         grid-column-end: 4;
+        border-radius: 0px 0px 20px 20px;
     }
 
     main {
@@ -269,4 +265,26 @@ footer {
         width: 100px;
     }
 
+    #section-login {
+        height: 50vh;
+        
+    }
+
+
+    #brand-infoinvest{
+        padding: 1rem;
+    }
+
+    #section-login-tittle {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #presentation {
+        margin: 1rem;
+    }
+
+    #button {
+        margin: 2rem;
+    }
 }

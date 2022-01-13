@@ -262,7 +262,7 @@ footer {
     }
 
     #logo {
-        width: 100px;
+        width: 80px;
     }
 
     #section-login {
@@ -282,6 +282,7 @@ footer {
 
     #presentation {
         margin: 1rem;
+        gap: 5px;
     }
 
     #button {

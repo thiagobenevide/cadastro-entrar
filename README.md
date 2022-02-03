@@ -7,11 +7,11 @@
 
 Imagens
 ### Sobre o projeto:
-É um site criado para o meu portifolio, ou seja, é um projeto “fantasma”, com o intuito de demostra uma página de cadastro e login de uma plataforma de aprendizado econômico.
+É um site criado para o meu portifolio, ou seja, é um projeto “fantasma”, com o intuito de demonstrar uma página de cadastro e login de uma plataforma de aprendizado econômico.
 
 ### Como ver o projeto:
 1. `https://github.com/thiagobenevide/cadastro-entrar.git` para clonar em sua máquina
-2. <a href="https://github.com/thiagobenevide/cadastro-entrar/deployments/activity_log?environment=github-pages" target="_blank">Clique aqui<a> para acessar o site e realizar os seus testes como githubpages
+2. <a href="https://thiagobenevide.github.io/cadastro-entrar/" target="_blank">Clique aqui<a> para acessar o site e realizar os seus testes como githubpages
 
 ### Porque foi criado:
 O principal objetivo é compreender as etapas de criação de uma página de login desde a ideia inicial, até a finalização do projeto.

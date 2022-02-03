@@ -1,8 +1,7 @@
 # Cadastro InfoInvest
 <div>
-  <img src="" width=350px>
-  <img src="" width=350px>
-  <img src="" width=350px>
+  <img src="image/cadastro1.jpeg" width=450px>
+  <img src="image/entrar.jpeg" width=450px>
 </div>
 
 
@@ -31,4 +30,4 @@ O principal objetivo é compreender as etapas de criação de uma página de log
 ### Observações importantes:
 1. Houve a necessidade de utilizar flex-box e grid para organizações de itens em css.
 2. A empresa não existe até o momento da criação deste arquivo.
-3. Responsividade criada para tela com no mínimo 320px.
+3. Responsividade criada para celulares, tablets, TVs, computadores e notebooks.
